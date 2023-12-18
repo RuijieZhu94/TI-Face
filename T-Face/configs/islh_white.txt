@@ -1,0 +1,43 @@
+dataset_name = ILSH
+datadir = ./data/nerf_datasets/ILSH/devPhase_blender/006_00
+expname =  tensorf_ILSH_VM_006_00_mask_white
+basedir = ./log
+
+n_iters = 50000
+batch_size = 4096
+
+N_voxel_init = 2097156 # 128**3
+N_voxel_final = 27000000 # 300**3
+upsamp_list = [2000,3000,4000,5500,7000]
+update_AlphaMask_list = [2000,4000]
+
+N_vis = 5
+vis_every = 10000
+
+render_test = 1
+
+n_lamb_sigma = [16,4,4]
+n_lamb_sh = [48,12,12]
+model_name = TensorVMSplit
+
+downsample_train = 1.0
+ndc_ray = 0
+
+shadingMode = MLP_Fea
+fea2denseAct = relu
+
+view_pe = 0
+fea_pe = 0
+
+TV_weight_density = 1.0
+TV_weight_app = 1.0
+
+rm_weight_mask_thre = 1e-4
+
+## please uncomment following configuration if hope to training on cp model
+#model_name = TensorCP
+#n_lamb_sigma = [96]
+#n_lamb_sh = [288]
+#N_voxel_final = 125000000 # 500**3
+#L1_weight_inital = 1e-5
+#L1_weight_rest = 1e-5
