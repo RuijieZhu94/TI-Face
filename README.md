@@ -19,12 +19,12 @@
 <div align="center">
  <!-- <a href=''><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
 <a href='https://arxiv.org/abs/2312.09527'><img src='https://img.shields.io/badge/arXiv-2312.09527-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- <a href='https://youtu.be/be4dT4Ain48'><img src='https://img.shields.io/badge/Video-Youtube-Green'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href='https://youtu.be/QRuVvtpoeVM'><img src='https://img.shields.io/badge/Video-Youtube-Green'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  <a href=''><img src='https://img.shields.io/badge/License-MIT-blue'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 
 
-[![video](./assets/TI-Face_ICCV23.png)](https://youtu.be/be4dT4Ain48)
+[![video](./assets/TI-Face_ICCV23.png)](https://youtu.be/QRuVvtpoeVM)
 
 > This video describes our solution that secured 
 the first place in the "View Synthesis Challenge for Human Heads (VSCHH)" at the ICCV 2023 workshop. Go to Youtube to see our talk!
